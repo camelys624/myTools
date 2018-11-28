@@ -1,0 +1,39 @@
+.btn-group {
+    position: relative;
+    margin-left: 35px;
+}
+
+.dropdown-menu {
+    position: absolute;
+    display: none;
+    width: 200px;
+    margin-top: 3px;
+    border-radius: 4px;
+    border: solid 1px lightgrey;
+    background-color: white;
+    box-shadow: 1px 2px 10px lightgrey;
+    z-index: 999;
+}
+
+.dropdown-menu li {
+    width: calc(100% - 20px);
+    height: 30px;
+    margin: 3px 0;
+    line-height: 2;
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+.btn {
+    padding: 0 38px 0 18px;
+}
+
+.btn > .layui-icon {
+    position: absolute;
+    float: right;
+    right: 5px;
+}
+
+.dropdown-menu li:hover {
+    background-color: lightgrey;
+}
